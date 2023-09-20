@@ -42,7 +42,7 @@ const Footer =()=>{
                     </div>
 
                     <div data-aos="fade-up" className="footerParagraph">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus hic atque minima quia id autem neque ducimus quo molestias laudantium debitis doloribus, blanditiis est molestiae sapiente assumenda dolore alias aliquam.
+                    Welcome to Travel! We are dedicated to providing you with the best travel experiences and inspirations. Explore the world with us and create unforgettable memories.
                     </div>
 
                     <div data-aos="fade-up" className="footerSocials flex">

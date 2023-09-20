@@ -107,4 +107,45 @@
 }
 .header .toggleNavBar:hover {
   color: var(--SecondaryColor);
+}
+
+@media screen and (min-width: 769px) {
+  .toggleNavBar, .closeNavBar {
+    display: none;
+  }
+  .header {
+    padding: 1.5rem 2rem;
+  }
+  .navBar .navLists {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .navBar .navLists .navItem .navLink {
+    color: var(--textColor);
+    padding: 0 0.45rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  .navBar .navLists .navItem .navLink:hover {
+    color: var(--PrimaryColor);
+  }
+  .navBar .navLists .btn {
+    margin-left: 1rem;
+  }
+  .navBar .navLists .btn a {
+    color: var(--whiteColor);
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 960px) {
+  .header .navBar .navLists .navItem {
+    padding: 0 0.7rem;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .header {
+    padding: 1rem 8.5rem;
+  }
 }/*# sourceMappingURL=navbar.css.map */
